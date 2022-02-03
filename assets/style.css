@@ -1,0 +1,76 @@
+/* Responsivo */
+
+body {
+    background-color: #000;
+    font-family: 'Poppins', sans-serif;
+}
+#gerador-form {
+  text-align: center;
+    width: 280px;
+    margin: 80px auto;
+    background-color: #fcfcfc;
+    padding: 20px 50px 40px;
+    box-shadow: 1px 4px 10px 1px #aaa;
+  }
+  @media (max-width: 500px) {
+    #gerador-form {
+        width: auto;
+        margin: 10px auto;
+        background-color: #fcfcfc;
+        padding: 10px 10px 10px;
+        box-shadow: 1px 4px 10px 1px #aaa;
+        font-family: sans-serif;
+
+    }
+}
+  
+  #gerador-form * {
+      box-sizing: border-box;
+  }
+  
+  #gerador-form h2{
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #gerador-form input {
+    margin-bottom: 15px;
+  }
+  
+  #gerador-form input[type=text] {
+    display: block;
+    height: 32px;
+    padding: 6px 16px;
+    width: 100%;
+    border: none;
+    background-color: #f3f3f3;
+  }
+  
+  #gerador-form label {
+    color: #777;
+    font-size: 0.8em;
+  }
+
+.hidden {
+    visibility: hidden;
+}
+  
+ .botao {
+        width: 100%;
+        margin-bottom: 5px;
+        justify-content: center;
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+}
+.botao:hover {
+    background-color: #79d411; /* Green */
+}
+.botao.ativo {
+    background-color: #00ff15; /* Green */
+}
