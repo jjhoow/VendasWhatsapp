@@ -1,2 +1,3 @@
-# VendasWhatsapp
-Código em Javascript para Auxiliar no rastreio da conversão gerada via Whatsapp
+# Vendas Whatsapp
+
+Projeto bem simples para facilitar o acompanhamento de conversões entre Whatsapp e Google Ads.
